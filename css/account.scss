@@ -1,0 +1,99 @@
+.myaccount {
+    .path {
+        text-align: center;
+        a {
+            padding: 5px 12px;
+            border-radius: 20px;
+            color: #ffffff;
+            background-color: #6664e4;
+            transition: all .45s;
+            white-space: nowrap;
+            margin-bottom: 1rem;
+            border: 1px solid transparent;
+        }
+
+        span {
+            text-align: center;
+            color: #6664e4;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 1em;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+    }
+    .account-header{
+        h2{
+            text-align: center;
+            margin: 25px 0 25px 0;
+            font-weight: 600;
+            font-size: 52px;
+            line-height: 61px;
+            letter-spacing: -0.022em;
+        }
+
+    }
+}
+.form{
+    form{
+        margin: auto;
+        background-color: #ffffff;
+        padding: 32px;
+        border: none;
+        position: relative;
+        box-shadow:  0 20px 40px rgba(9, 31, 67, 0.05);;
+    border-radius: 12px;
+        .email{
+            margin-right: 1rem;
+            color: #0f110f;
+            font-weight: 500;
+            margin-bottom: 0.65rem;
+            margin-top: 0.5rem;
+            font-size: 16px;
+            line-height: 24px;
+            width: 100%;
+            letter-spacing: -0.011em;
+        }
+        .email-input{
+            border-radius: 8px;
+            line-height: 1.23536;
+            font-weight: 400;
+            text-overflow: ellipsis;
+            border: 1px solid #e4e5e7;
+            padding: 0.75rem 1rem;
+            font-size: 16px;
+            letter-spacing: -0.011em;
+        }
+        .remember{
+            line-height: 19px;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            letter-spacing: -0.006em;
+        }
+        .log{
+            color: #fff;
+            min-width: 3.25rem;
+            padding: 0.7em 1.764em;
+            text-align: center;
+            border-radius: 8px;
+            font-weight: 500;
+            text-shadow: none !important;
+            line-height: 22px;
+            transition: all .45s;
+            background: #6664e4;
+            box-shadow: unset;
+            border: none;
+        }
+        .lost{
+            p{
+                line-height: 19px;
+                font-size: 14px;
+                font-weight: 600;
+                letter-spacing: -0.006em;
+                color: #6664e4;
+            }
+        }
+    }
+}

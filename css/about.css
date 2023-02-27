@@ -1,0 +1,372 @@
+.about {
+  background-image: url("../img/about-2.png");
+  background-position: bottom center;
+  background-size: cover;
+}
+.about img {
+  width: 90%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.about .about-text h2 {
+  text-align: left;
+  color: #0F110F;
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.1em;
+  letter-spacing: -0.3px;
+  width: 90%;
+}
+.about .about-p-2 p {
+  text-align: left;
+  color: #666666;
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.9em;
+  width: 86%;
+}
+.about .about-p-2 .contact {
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  fill: #0F110F;
+  color: #0F110F;
+  background-color: rgba(224, 231, 250, 0);
+  border-style: solid;
+  border-width: 0px 0px 2px 0px;
+  border-color: #6664E4;
+  border-radius: 0px 0px 0px 0px;
+  box-shadow: 0px 0px 0px 0px rgba(21, 92, 231, 0.43);
+  padding: 0px 0px 7px 0px;
+}
+.about .about-p-2 .contact a,
+.about .about-p-2 .contact i {
+  font-size: 18px;
+  fill: #0F110F;
+  color: #0F110F;
+}
+.about .about-p-2 .contact a {
+  font-family: "Lexend Deca", Sans-serif;
+  font-family: 500;
+}
+.about .rating h2 {
+  color: #0F110F;
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 1.2em;
+}
+.about .rating span {
+  color: #666666;
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1.3em;
+  letter-spacing: 1px;
+}
+.about .value h2 {
+  text-align: center;
+  margin: auto;
+  color: #0F110F;
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.1em;
+  letter-spacing: -0.3px;
+  width: 50%;
+}
+.about .value p {
+  margin: auto;
+  text-align: center;
+  color: #666666;
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.9em;
+  width: 45%;
+}
+.about .about-box {
+  border-radius: 10px;
+  background-color: white;
+  border-style: solid;
+  border-width: 0px 0px 0px 0px;
+  transition: 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin: 30px;
+  padding: 40px 40px 40px 40px;
+}
+.about .about-box img {
+  width: 30%;
+}
+.about .about-box h3 {
+  color: #1A1A1A;
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  margin: -5px 0px 0px 0px;
+}
+.about .about-box p {
+  margin: 0px 0px 0px 0px;
+  color: rgba(102, 102, 102, 0.7803921569);
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6em;
+  width: 90%;
+}
+
+.panal img {
+  width: 480px;
+  height: 375px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.team .team-header h2 {
+  text-align: center;
+  margin: auto;
+  color: #0F110F;
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.1em;
+  letter-spacing: -0.3px;
+  width: 50%;
+}
+.team .team-header p {
+  margin: auto;
+  text-align: center;
+  color: #666666;
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.9em;
+  width: 45%;
+}
+.team .team-member .team-content h2 {
+  text-align: center;
+  color: #0F110F;
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+  margin-top: 4px;
+}
+.team .team-member .team-content span {
+  display: block;
+  text-align: center;
+  color: #666666;
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin: auto;
+}
+.team .team-member .team-content .team-pic img {
+  width: 50%;
+  border-radius: 50%;
+  margin: auto;
+}
+.team .all {
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  fill: #0F110F;
+  color: #0F110F;
+  background-color: rgba(224, 231, 250, 0);
+  border-style: solid;
+  border-width: 0px 0px 2px 0px;
+  border-color: #6664E4;
+  border-radius: 0px 0px 0px 0px;
+  box-shadow: 0px 0px 0px 0px rgba(21, 92, 231, 0.43);
+  padding: 0px 0px 7px 0px;
+}
+.team .all a,
+.team .all i {
+  font-size: 18px;
+  fill: #0F110F;
+  color: #0F110F;
+}
+.team .all a {
+  font-family: "Lexend Deca", Sans-serif;
+  font-family: 500;
+}
+
+.logo .logo-header h2 {
+  text-align: center;
+  margin: auto;
+  color: #0F110F;
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.1em;
+  letter-spacing: -0.3px;
+  width: 50%;
+}
+.logo .logo-header p {
+  margin: auto;
+  text-align: center;
+  color: #666666;
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.9em;
+  width: 45%;
+}
+.logo .logo-img img {
+  width: 66%;
+  margin: auto;
+}
+
+@media (max-width: 1199px) {
+  .contact-us {
+    background-image: none;
+  }
+  .contact-us .contact-content p {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .p-125 {
+    padding: 125px 0px;
+  }
+  .panal img {
+    width: 100%;
+  }
+  .about img {
+    width: 50%;
+    margin: auto;
+  }
+  .about .about-p-2 .contact {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .about .about-p-2 p {
+    width: 50%;
+    margin: auto;
+  }
+  .about .about-text h2 {
+    font-size: 40px;
+    margin: auto;
+    width: 55%;
+  }
+  .about .value h2 {
+    font-size: 40px;
+  }
+  .team .team-header p, .logo .logo-header p {
+    width: 60%;
+  }
+  .team .team-header h2, .logo .logo-header h2 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 991px) {
+  .contact-us .contact-us-button a {
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .contact-us .contact-content p {
+    width: 95%;
+  }
+  .banner .banner-text h2 {
+    font-size: 46px;
+  }
+  .p-125 {
+    padding: 70px 0px;
+  }
+  .about img {
+    width: 70%;
+    margin: auto;
+  }
+  .about .value h2 {
+    width: 75%;
+  }
+  .about .value p {
+    width: 75%;
+  }
+  .team .team-header p {
+    width: 80%;
+  }
+  .logo .logo-header h2 {
+    width: 75%;
+  }
+  .logo .logo-header p {
+    width: 85%;
+  }
+}
+@media (max-width: 767px) {
+  .contact-us .contact-content h2 {
+    font-size: 36px;
+  }
+  .contact-us .contact-content p {
+    width: 100%;
+    font-size: 16px;
+  }
+  .team .team-header h2 {
+    width: 100%;
+  }
+  .team .team-header p {
+    font-size: 16px;
+    width: 100%;
+  }
+  .team .team-header h2 {
+    font-size: 30px;
+  }
+  .about .value h2, .logo .logo-header h2 {
+    font-size: 32px;
+    width: 60%;
+  }
+  .about .value p {
+    font-size: 16px;
+    width: 100%;
+  }
+  .banner .banner-text h4 {
+    font-size: 14px;
+  }
+  .banner .banner-text h2 {
+    font-size: 36px;
+  }
+  .banner .banner-text p {
+    font-size: 16px;
+  }
+  .about .about-text h2, .logo .logo-header h2 {
+    font-size: 32px;
+  }
+  .about .about-p-2 p, .logo .logo-header p {
+    width: 100%;
+    font-size: 16px;
+  }
+  .about img {
+    width: 100%;
+    margin: auto;
+  }
+  .about .rating h2 {
+    font-size: 40px;
+  }
+  .about .rating span {
+    font-size: 16px;
+  }
+  .logo .logo-img img {
+    width: 90%;
+  }
+}
+@media (max-width: 575px) {
+  .contact-us .contact-us-button a {
+    padding: 10px 20px;
+    text-align: center;
+  }
+  footer .col-xl-4 h3 {
+    font-size: 30px;
+  }
+  .about .about-text h2, .logo .logo-header h2 {
+    width: 75%;
+  }
+  .about .value h2 {
+    font-size: 32px;
+    width: 100%;
+  }
+}/*# sourceMappingURL=about.css.map */

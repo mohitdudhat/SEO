@@ -1,0 +1,56 @@
+.p-125 {
+    padding: 125px 0px;
+}
+
+.banner {
+    .banner-text {
+        h4 {
+            text-align: left;
+            color: #2CBCA5;
+            font-family: "Lexend Deca", Sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            text-transform: uppercase;
+            line-height: 1.4em;
+            letter-spacing: 5px;
+        }
+
+        h2 {
+            text-align: left;
+            color: #0F110F;
+            font-family: "Lexend Deca", Sans-serif;
+            font-size: 56px;
+            font-weight: 600;
+            line-height: 1.1em;
+            letter-spacing: -0.3px;
+        }
+
+        p {
+            text-align: left;
+            color: #666666;
+            font-family: "Lexend Deca", Sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 1.9em;
+        }
+    }
+
+    img {
+        height: 315px;
+        object-fit: contain;
+    }
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top: 1px solid;
+    opacity: .25;
+}
+

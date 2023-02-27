@@ -1,0 +1,680 @@
+img {
+  width: 100%;
+  display: block;
+}
+
+ul {
+  margin: 0px;
+}
+
+.mb-30 {
+  margin: 0px 0px 30px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.mb-20 {
+  margin: 0px 0px 20px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.mb-12 {
+  margin: 0px 0px 12px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.mb-40 {
+  margin: 0px 0px 40px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.m-12 {
+  margin: 12px;
+}
+
+#effect {
+  color: #58E6FF;
+}
+
+hr {
+  border-style: solid;
+  border-width: 0px 0px 2px 0px;
+  border-color: rgba(126, 130, 153, 0.3019607843);
+  padding: 0px;
+  margin: 0px;
+}
+
+.w-12 {
+  width: 12.5%;
+}
+.w-12 img {
+  width: 71% !important;
+}
+
+.bg-none {
+  background-image: none !important;
+  border-color: rgba(126, 130, 153, 0.0901960784) !important;
+}
+
+.w-85 {
+  width: 85% !important;
+}
+
+.w-90 {
+  width: 90% !important;
+}
+
+.grey-text {
+  text-align: center;
+  color: rgba(169, 164, 171, 0.7803921569);
+  font-family: "Lexend", Sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.9em;
+}
+
+.banner-btn a {
+  text-decoration: none;
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  fill: #080A10;
+  color: #080A10;
+  background-color: transparent;
+  background-image: linear-gradient(90deg, #58E6FF 0%, #FC81FE 100%);
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #0F110F;
+  border-radius: 100px 100px 100px 100px;
+  box-shadow: 0px 20px 60px 0px rgba(255, 166, 84, 0);
+  padding: 15px 40px 15px 40px;
+}
+
+@supports (((-webkit-background-clip: text) or (background-clip: text)) or (-webkit-background-clip: text)) and ((text-fill-color: transparent) or (-webkit-text-fill-color: transparent)) {
+  #effect {
+    background-image: linear-gradient(90deg, #58E6FF 0%, #FC81FE 100%);
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+  }
+}
+.banner .banner-text {
+  font-family: "Lexend Deca", Sans-serif;
+  font-weight: 600;
+  line-height: 1.2em;
+  letter-spacing: 0px;
+  width: 75%;
+}
+.banner .banner-text p {
+  text-align: left;
+  color: rgba(169, 164, 171, 0.7803921569);
+  font-family: "Lexend", Sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.9em;
+}
+.banner .banner-btn a {
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  fill: #080A10;
+  color: #080A10;
+  background-color: transparent;
+  background-image: linear-gradient(90deg, #58E6FF 0%, #FC81FE 100%);
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #0F110F;
+  border-radius: 100px 100px 100px 100px;
+  box-shadow: 0px 20px 60px 0px rgba(255, 166, 84, 0);
+  padding: 15px 40px 15px 40px;
+}
+.banner .achivements .container .a-card h2 {
+  color: #FFFFFF;
+  font-family: "Lexend Deca", Sans-serif;
+  font-weight: 400;
+}
+.banner .achivements .container .a-card p {
+  text-align: center;
+  color: rgba(169, 164, 171, 0.7411764706);
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+
+.service {
+  padding: 100px 0px 80px 0px;
+}
+.service .service-header {
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 1.2em;
+  letter-spacing: 0px;
+}
+.service .service-content p {
+  text-align: left;
+  color: rgba(169, 164, 171, 0.7803921569);
+  font-family: "Lexend", Sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.9em;
+  width: 100%;
+}
+.service .service-content .service-card {
+  width: 95%;
+  padding: 25px 30px;
+  border-style: solid;
+  border-width: 1px 1px 0px 1px;
+  border-color: rgba(126, 130, 153, 0.0901960784);
+  border-radius: 40px;
+  margin: 0px 0px 20px;
+}
+.service .service-content .service-card:hover {
+  background-color: transparent;
+  background-image: linear-gradient(180deg, rgba(126, 130, 153, 0.1803921569) 0%, rgba(126, 130, 153, 0) 100%);
+}
+.service .service-content .service-card .s-card-content span {
+  margin-bottom: 0px;
+  color: #FFFFFF;
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.7em;
+}
+.service .service-content .service-card .s-card-content p {
+  color: rgba(169, 164, 171, 0.7411764706);
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  width: 100%;
+  line-height: 1.5rem;
+}
+.service .service-content .bg-active {
+  background-color: transparent;
+  background-image: linear-gradient(180deg, rgba(126, 130, 153, 0.1803921569) 0%, rgba(126, 130, 153, 0) 100%);
+}
+.service .banner {
+  padding: 80px 0px 0px 0px;
+}
+
+.camp {
+  background-color: #020710;
+  background-image: url("../img/camp.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.camp .camp-inner {
+  padding: 100px 0px 80px 0px;
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #080A10 0%, rgba(8, 10, 16, 0) 100%);
+  opacity: 1;
+  transition: 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.camp .camp-header {
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 1.2em;
+  letter-spacing: 0px;
+  width: 45%;
+  margin: auto auto 20px;
+  text-align: center;
+}
+.camp .camp-header p span {
+  color: #FFFFFF;
+}
+.camp .camp-box {
+  width: 100%;
+  background-color: rgba(126, 130, 153, 0.1803921569);
+  padding: 32px;
+  margin: auto;
+  border-radius: 40px 40px 40px 40px;
+}
+.camp .camp-box img {
+  width: 55px;
+}
+.camp .camp-box h2 {
+  color: #FFFFFF;
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+}
+.camp .camp-box p {
+  color: rgba(169, 164, 171, 0.968627451);
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6em;
+}
+
+.agency {
+  background-color: #020710;
+  background-image: url("../img/agency.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0px 80px 0px;
+}
+.agency p {
+  text-align: left;
+  color: rgba(169, 164, 171, 0.7803921569);
+  font-family: "Lexend", Sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.9em;
+  width: 95%;
+}
+.agency .agency-inner {
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #080A11 0%, rgba(2, 7, 16, 0) 100%);
+  opacity: 1;
+  transition: 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.agency .agency-header {
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 1.2em;
+  letter-spacing: 0px;
+}
+.agency .people p {
+  color: #FFFFFF;
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.logo {
+  border-style: solid;
+  border-width: 1px 0px 1px 0px;
+  border-color: rgba(126, 130, 153, 0.3019607843);
+  transition: 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 25px 0px;
+  z-index: 0;
+  background-color: #020710;
+}
+
+.work {
+  background-color: #020710;
+  background-image: url("../img/work.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.work .work-inner {
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #080A11 0%, rgba(2, 7, 16, 0) 100%);
+  opacity: 1;
+  transition: 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.work .work-header {
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 1.2em;
+  letter-spacing: 0px;
+  width: 100%;
+}
+.work .work-header p {
+  text-align: left;
+}
+.work .work-box .work-img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 40px 40px 40px 40px;
+  overflow: hidden;
+}
+.work .work-box .work-title span {
+  color: rgba(169, 164, 171, 0.968627451);
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 20px 0px 15px 20px;
+}
+.work .work-box .work-title h2 {
+  color: #FFFFFF;
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 1.3em;
+  padding: 0px 0px 0px 20px;
+  margin-top: 10px;
+}
+
+.prof {
+  background-color: #080A10;
+  background-image: url("../img/prof.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+}
+.prof .prof-inner:after {
+  content: " ";
+  opacity: 0.5;
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  background-image: url("../img/circle.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 50% auto;
+}
+.prof .prof-inner .prof-header {
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 1.2em;
+  letter-spacing: 0px;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.prof .prof-inner .prof-box {
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #282A36 0%, rgba(42, 43, 49, 0) 100%);
+  border-radius: 40px;
+  border-style: solid;
+  border-width: 1px 1px 0px 1px;
+  border-color: rgba(126, 130, 153, 0.0901960784);
+  margin: 25px;
+  padding: 35px;
+}
+.prof .prof-inner .prof-box p {
+  text-align: left;
+  color: #FFFFFF;
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  margin-bottom: 20px;
+}
+.prof .prof-inner .prof-box .man h2 {
+  color: #A9A4AB;
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+.prof .prof-inner .prof-box .man span {
+  color: rgba(169, 164, 171, 0.4);
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0px;
+}
+.prof .prof-inner .prof-box .man .man-img img {
+  width: 50px;
+  height: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 100% 100% 100% 100%;
+}
+
+footer {
+  background-color: #090b0f;
+}
+footer .footer {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+footer .col-xl-4 h3 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 49px;
+  letter-spacing: -0.022em;
+}
+footer .col-xl-4 p {
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: -0.009em;
+  margin: 0px;
+}
+footer .footer-bottom p {
+  font-size: 13px;
+  letter-spacing: -0.0025em;
+  color: #a0a1a2;
+  margin: 0px;
+  line-height: 1;
+}
+footer .footer-bottom li {
+  font-size: 13px;
+  letter-spacing: -0.0025em;
+  line-height: 1;
+  padding: 10px 5px;
+  margin: auto;
+}
+
+@media (min-width: 1200px) {
+  .long-img img {
+    height: 490px;
+  }
+  .work-inner {
+    padding: 100px 0px 80px 0px;
+  }
+  .banner .banner-text {
+    font-size: 64px;
+  }
+  .banner .achivements {
+    padding: 60px 0px;
+  }
+  .service .banner-text {
+    width: 100%;
+  }
+  .banner .achivements .a-card h2 {
+    font-size: 64px;
+  }
+  .banner .banner-text {
+    font-size: 64px;
+    width: 85%;
+  }
+  .camp .camp-header {
+    width: 50%;
+  }
+  .work .work-header {
+    width: 70%;
+  }
+}
+@media (max-width: 1199px) {
+  .prof .prof-inner .prof-header {
+    width: 60%;
+  }
+  .work .work-header {
+    width: 100%;
+  }
+  .work-inner {
+    padding: 100px 0px 80px 0px;
+  }
+  .agency .banner-text {
+    width: 100% !important;
+  }
+  .banner .achivements {
+    padding: 60px 0px;
+  }
+  .service .banner-text {
+    width: 100%;
+  }
+  .banner .achivements .a-card h2 {
+    font-size: 64px;
+  }
+  .camp .camp-header {
+    width: 60%;
+  }
+}
+@media (max-width: 991px) {
+  .prof .prof-inner .prof-header {
+    width: 80%;
+  }
+  .work .work-header {
+    width: 100%;
+  }
+  .work-img img {
+    height: 350px;
+  }
+  .agency .banner-text {
+    width: 75% !important;
+    padding: 25px 0px;
+  }
+  .agency {
+    padding: 50px;
+  }
+  .banner .banner-text {
+    font-size: 54px;
+    width: 80%;
+  }
+  .banner .banner-text p {
+    font-size: 18px;
+    width: 106%;
+  }
+  .banner .achivements .a-card h2 {
+    font-size: 54px;
+  }
+  .banner .achivements .a-card p {
+    font-size: 16px;
+  }
+  .banner .container .banner-padding {
+    padding: 48px 12px 0px;
+  }
+  .service .service-header {
+    width: 100%;
+  }
+  .service .service-content p, .service .service-header {
+    padding: 16px 0px 0px;
+  }
+  .camp .camp-header {
+    width: 80%;
+  }
+}
+@media (min-width: 991px) {
+  .m-lg-12 {
+    margin: 20px;
+  }
+  .prof {
+    padding: 60px 0px;
+  }
+}
+@media (max-width: 767px) {
+  .prof {
+    padding: 0px 0px;
+  }
+  .prof .prof-inner .prof-box p {
+    font-size: 18px;
+  }
+  .prof .prof-inner .prof-header {
+    font-size: 32px;
+    width: 100%;
+  }
+  .prof-header .grey-text {
+    font-size: 16px;
+  }
+  .work .work-header {
+    font-size: 32px;
+  }
+  .work .work-header p {
+    font-size: 16px;
+    width: 100%;
+  }
+  .work .work-box .work-title h2 {
+    font-size: 22px;
+  }
+  .work-img img {
+    height: 250px;
+  }
+  .w-12 {
+    width: 25% !important;
+  }
+  .agency .agency-header {
+    font-size: 32px;
+  }
+  .agency p {
+    width: 140%;
+  }
+  .service .service-header {
+    font-size: 32px;
+  }
+  .service .service-header, .service .service-content .service-card {
+    width: 100%;
+  }
+  .service {
+    padding: 50px 0px 50px 0px;
+  }
+  .service .service-content p {
+    font-size: 16px;
+    padding: 0px;
+  }
+  .banner .achivements {
+    padding: 40px 0px;
+  }
+  .s-card-icon img {
+    width: 20%;
+    margin: auto;
+  }
+  .s-card-content, .s-card-content p {
+    text-align: center !important;
+  }
+  .banner .banner-text {
+    font-size: 36px;
+    width: 100%;
+  }
+  .banner .banner-text p {
+    font-size: 16px;
+    width: 103%;
+  }
+  .banner .achivements .a-card h2 {
+    font-size: 44px;
+  }
+  .camp .camp-header {
+    font-size: 32px;
+  }
+  .camp .camp-header .grey-text {
+    font-size: 16px;
+  }
+  .camp .camp-header {
+    width: 100%;
+  }
+  .w-85 {
+    width: 100% !important;
+  }
+}
+@media (max-width: 575px) {
+  footer .col-xl-4 h3 {
+    font-size: 30px;
+  }
+  .w-12 img {
+    width: 100% !important;
+  }
+  .w-12 {
+    width: 25% !important;
+  }
+  .agency .banner-text {
+    width: 100% !important;
+  }
+  .agency .agency-header, .agency p {
+    width: 110%;
+  }
+  .service .service-header {
+    font-size: 32px;
+  }
+  .banner .banner-text div span {
+    display: block;
+    width: 100%;
+  }
+  .banner .banner-text p {
+    font-size: 16px;
+    width: 102%;
+  }
+  .banner .achivements .a-card p {
+    font-size: 14px;
+  }
+  .banner .achivements {
+    padding-top: 40px;
+  }
+}/*# sourceMappingURL=style.css.map */
